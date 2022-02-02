@@ -1,0 +1,109 @@
+.profilePage {
+  padding: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+@media screen and (max-width: 650px) {
+  .profilePage {
+    flex-direction: column;
+  }
+}
+
+.userProfileData {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.userName,
+.userUsername,
+.userEmail {
+  color: white;
+}
+
+.userProfileWrapper {
+  text-align: center;
+}
+
+.userImage {
+  border-radius: 50%;
+  height: 250px;
+  width: 250px;
+  object-fit: cover;
+}
+
+.userProfileEdit {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.userProfileForm {
+  width: 80%;
+}
+
+.profileTextField,
+.profilePasswordField {
+  padding: 10px;
+  width: 100%;
+  border-radius: 5px;
+  border: none;
+  margin-bottom: 50px;
+  background-color: rgba(0, 0, 0, 0.308);
+}
+
+::placeholder {
+  color: white;
+  font-size: 20px;
+  font-weight: 400;
+  font-family: "Montserrat", sans-serif;
+}
+
+.profileEditButton {
+  padding: 20px 40px;
+  border: none;
+  border-radius: 10px;
+  margin-right: 20px;
+  color: rgb(12, 168, 142);
+  font-size: 20px;
+}
+
+.userInputFile {
+  border-radius: 10px;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.changeProfile {
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: rgb(12, 168, 142);
+}
+
+@media screen and (max-width: 819px) {
+  .profilePage {
+    flex-direction: column;
+  }
+
+  .userProfileData {
+    width: 80%;
+    margin: 50px auto;
+  }
+
+  .userProfileEdit {
+    width: 80%;
+    margin: 0px auto;
+  }
+  .profileEditButton {
+    padding: 10px 15px;
+  }
+
+  .userInputFile {
+    margin-left: 40px;
+  }
+}

@@ -1,0 +1,141 @@
+html {
+  min-height: 100%;
+}
+
+body {
+  background: #0ece81;
+  background: linear-gradient(180deg, #0ece81 68%, rgb(12, 168, 142) 100%);
+  font-family: "Montserrat", sans-serif;
+}
+
+.landingPage {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.landingImageLogoSection {
+  width: 45%;
+}
+
+.landingPageImageWrapper {
+  width: 100%;
+}
+
+.landingPageImage {
+  width: 100%;
+  height: 730px;
+  object-fit: cover;
+}
+
+.landingConnectSection {
+  width: 45%;
+  /* border: 1px solid yellow; */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.landingLogo {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  color: black;
+  margin-left: 130px;
+}
+
+.landingShare {
+  text-transform: capitalize;
+}
+
+.landingDescription {
+}
+
+.landingConnect {
+  font-size: 6em;
+  text-transform: uppercase;
+  margin-bottom: 0px;
+  font-weight: bold;
+}
+
+.landingShareWith {
+  font-size: 38px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  color: white;
+}
+
+.landingColleagues {
+  font-size: 50px;
+  margin-top: 0px;
+  text-transform: capitalize;
+  color: white;
+  font-weight: bold;
+}
+
+.landingDescPart {
+  color: white;
+}
+
+.landingBriefInfo {
+  font-size: 28px;
+  color: white;
+}
+
+.landing-btns-container {
+  margin-top: 80px;
+}
+
+.landingSignup,
+.landingLogin {
+  padding: 20px 40px;
+  border: none;
+  border-radius: 10px;
+  margin-right: 50px;
+}
+
+.landingRegLogin,
+.landingRegLink {
+  text-decoration: none;
+  color: rgb(12, 168, 142);
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 1094px) {
+  .landingPage {
+    flex-direction: column;
+  }
+
+  .landingImageLogoSection {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .landingPageImageWrapper {
+    width: 100%;
+  }
+  .landingPageImage {
+    width: 100%;
+    height: auto;
+  }
+
+  .landingConnectSection {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .landingConnect {
+    font-size: 4em;
+  }
+  .landingBriefInfo {
+    text-align: center;
+  }
+
+  .landing-btns-container {
+    margin-top: 20px;
+  }
+
+  .landingSignup,
+  .landingLogin {
+    padding: 10px 20px;
+    margin-bottom: 10px;
+  }
+}

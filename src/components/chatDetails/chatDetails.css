@@ -1,0 +1,39 @@
+.chatDetails {
+  height: 100%;
+  overflow: hidden;
+}
+
+.chatRoomMeta,
+.memberList {
+  padding: 20px;
+}
+
+.chatRoomMeta {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.memberList {
+  margin-top: 50px;
+  height: 70%;
+  overflow-y: scroll;
+}
+
+.memberList .member {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.memberImg {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.memberName {
+  margin-left: 20px;
+}

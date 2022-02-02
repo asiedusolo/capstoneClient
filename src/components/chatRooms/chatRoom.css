@@ -1,0 +1,23 @@
+.chatRoom {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.chatRoom:hover {
+  background-color: #0ece81;
+  cursor: pointer;
+}
+
+.chatRoom .chatRoomImg {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 20px;
+}
+
+.chatRoomName {
+  font-weight: 400;
+}
