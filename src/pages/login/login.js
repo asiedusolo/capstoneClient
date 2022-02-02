@@ -1,4 +1,4 @@
-import React, { useRef, useState, useContext } from "react";
+import React, { useRef, useContext } from "react";
 // import axios from "axios";
 // import Modal from "./modal";
 import { AuthContext } from "../../contexts/auth/authcontext";
@@ -17,7 +17,7 @@ const Login = () => {
 
     const userInfo = {
       staff_email: staffEmailRef.current.value,
-      password: passwordRef.current.value
+      password: passwordRef.current.value,
     };
 
     await LoginCall(userInfo, dispatch);
