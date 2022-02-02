@@ -12,7 +12,7 @@ const Profile = () => {
   const [password, setPassword] = useState("");
   const [confirmPassword, setConfirmPassword] = useState("");
   const [newUsername, setNewUsername] = useState("");
-  const PF = process.env.REACT_APP_PUBLIC_FOLDER;
+  const PF = `https://letxchatapi.herokuapp.com/images/`;
 
   useEffect(() => {
     const fetchUser = async () => {

@@ -2,7 +2,7 @@ import "./message.css";
 import TimeAgo from "react-timeago";
 
 const Message = ({ ownMessage, text, senderUsername, createdAt }) => {
-  const PF = process.env.REACT_APP_PUBLIC_FOLDER;
+  const PF = `https://letxchatapi.herokuapp.com/images/`;
   const mediaTypes = ["image", "audio", "video"];
 
   if (text && text.startsWith(mediaTypes[0])) {

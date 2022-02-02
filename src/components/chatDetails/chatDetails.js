@@ -5,7 +5,7 @@ import "./chatDetails.css";
 const ChatDetails = ({ currentChatRoom, currentChatRoomMembers }) => {
   const [chatCreator, setChatCreator] = useState("");
   const [usersInfo, setUsersInfo] = useState([]);
-  const PF = process.env.REACT_APP_PUBLIC_FOLDER;
+  const PF = `https://letxchatapi.herokuapp.com/images/`;
 
   useEffect(() => {
     axios

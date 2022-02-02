@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import "./landingPage.css";
 
 const LandingPage = () => {
-  const PF = process.env.REACT_APP_PUBLIC_FOLDER;
+  const PF = `https://letxchatapi.herokuapp.com/images/`;
 
   return (
     <div className="landingPage">

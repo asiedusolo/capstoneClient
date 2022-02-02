@@ -6,7 +6,7 @@ import { AuthContext } from "../../contexts/auth/authcontext.js";
 
 const Topbar = () => {
   const { user } = useContext(AuthContext);
-  const PF = process.env.REACT_APP_PUBLIC_FOLDER;
+  const PF = `https://letxchatapi.herokuapp.com/images/`;
 
   return (
     <div className="topbar">
