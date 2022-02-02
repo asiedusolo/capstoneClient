@@ -30,7 +30,7 @@ const ChatPage = () => {
     };
   });
   useEffect(() => {
-    socket.current = io("http://localhost:8900");
+    socket.current = io("https://letxchatsocket.herokuapp.com");
     socket.current.on("receiveMessage", (arrivingMessage) => {
       setArrivalMessage({
         chatRoomId: arrivingMessage.chatRoomId,
