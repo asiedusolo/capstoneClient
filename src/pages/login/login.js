@@ -1,6 +1,6 @@
 import React, { useRef, useState, useContext } from "react";
 // import axios from "axios";
-import Modal from "./modal";
+// import Modal from "./modal";
 import { AuthContext } from "../../contexts/auth/authcontext";
 import LoginCall from "./loginAPICalls";
 import { Link } from "react-router-dom";
