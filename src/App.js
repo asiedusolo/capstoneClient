@@ -16,6 +16,8 @@ import {AuthContext} from "./contexts/auth/authcontext";
 function App() {
   const { user } = useContext(AuthContext);
   return (
+    <div className="bg-gradient-to-r from-green-400 to-green-900">
+
     <Router>
       <Switch>
         <Route exact path="/">
@@ -36,6 +38,7 @@ function App() {
         </Route>
       </Switch>
     </Router>
+    </div>
   );
 }
 

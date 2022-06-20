@@ -193,7 +193,7 @@ const ChatPage = () => {
             })}
           </div>
         </div>
-        <div className="chatBox">
+        <div className="chatBox hidden md:block">
           <div className="chatBoxWrapper">
             <div className="chatBoxTop">
               {currentChatRoomMessages.length > 0 ? (
@@ -239,7 +239,7 @@ const ChatPage = () => {
             </div>
           </div>
         </div>
-        <div className="chatDetails">
+        <div className="chatDetails hidden md:block">
           <div className="chatDetailsWrapper">
             {currentChatRoom.chatRoomName ? (
               <ChatDetails
